@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 230, 138);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+#inscreva-se-btn{
+    border: 2px solid rgb(50, 176, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+#inscreva-se-btn:hover{
+    background-color: rgb(7, 195, 151);
+    color: rgb(255, 255, 255)    ;
+}
+a{
+    color: rgb(18, 211, 166);
+    text-decoration: none;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(155, 28, 234, 0.784);
+}
+.center{
+    text-align: center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 20px;
+}
+.container{
+    padding: 0px 50px;
+}
+nav a:hover{
+    color: black;
+}
+main p{
+    color: black;
+}
